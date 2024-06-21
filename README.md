@@ -86,8 +86,7 @@ The dataset should follow the following folder structure -
 ```
 
 - Sample test datasets can be downloaded here - 
-    - [512x512 size images](https://drive.google.com/open?id=1tv8kdeoT12AJL2iMnQkNUfgY2RjirNp9)
-    - [256x256 size images](https://drive.google.com/open?id=1KQCLpXwRshmrUi10oG1aPNvOCExeCGv5)
+    - [256x256 size images]
 
 - For evaluating on this dataset, download and unzip the folder, replace it with the `test` directory in the `dataset` folder, and refer to [Pretrained models](#pretrained-models) and [Evaluation](#evaluation).
 
