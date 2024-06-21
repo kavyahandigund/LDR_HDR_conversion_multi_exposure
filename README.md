@@ -23,8 +23,7 @@ Table of contents:
 - [Training](#training)
 - [Pretrained models](#pretrained-models)
 - [Evaluation](#evaluation)
-- [Citation](#citation)
-- [Acknowledgement](#acknowledgement)
+
 
 Abstract
 ------------
@@ -132,7 +131,7 @@ Evaluation
 ----------
 
 The performance of the network can be evaluated using the **`test.py`** file - 
-
+SSIM and PSNR are used as a evaluation matrics.
 
 
 
