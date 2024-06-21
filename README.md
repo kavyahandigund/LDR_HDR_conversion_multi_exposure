@@ -38,8 +38,7 @@ Setup
 ### Pre-requisites
 
 - Python3
-- [PyTorch](https://pytorch.org/)
-- GPU, CUDA, cuDNN
+- GPU, CUDA
 - [OpenCV](https://opencv.org)
 - [PIL](https://pypi.org/project/Pillow/)
 - [Numpy](https://numpy.org/)
@@ -66,15 +65,20 @@ The dataset should follow the following folder structure -
 
         > LDR
 
-            > ldr_image_1.jpg/png
-            > ldr_image_2.jpg/png
-            .
-            .
+            >LDR_exposure_+2
+              >LDR_001.jpg
+              >LDR_002.jpg
+            >LDR_exposure_-2
+              >LDR_001.jpg
+              >LDR_002.jpg
+            >LDR_exposure_0
+              >LDR_001.jpg
+              >LDR_002.jpg
 
         > HDR
 
-            > hdr_image_1.hdr/exr
-            > hdr_image_2.hdr/exr
+            > hdr_image_1.hdr
+            > hdr_image_2.hdr
             .
             .
 
@@ -116,14 +120,13 @@ Pre-trained models can be downloaded from the below-mentioned links.
 
 These models have been trained with the default options, on 256x256 size images for 200 epochs, in accordance with the paper.
 
-- [Feed-forward (1-Iteration) model](https://drive.google.com/file/d/1iTSU-tsencVgefH8oNorf9JExGKylaXo/view?usp=sharing)
-- [2-Iterations model](https://drive.google.com/open?id=13vTGH-GVIWVL79X8NJra0yiguoO1Ox4V)
-- [3-Iterations model]() [Coming soon]
-- [4-Iterations model]() [Coming soon]
+- [3-Iterations model](https://drive.google.com/drive/folders/1aJkGCpSN2T96vfQoh2OFwIMZVVzN3C6F)
+- [2-Iterations model](https://drive.google.com/drive/folders/1j6QkshoLHfovfva9YbJuVUjFk14wT_OC)
+- [1-Iterations model](https://drive.google.com/drive/folders/1chMTUfzu6946K4KfitTGXTPOvlWSy7bw) 
 
 Here is a graph plotting the performance vs iteration count. 
 
-<img src="https://user-images.githubusercontent.com/24846546/71311250-ed28ab00-2415-11ea-9842-f84b5999161e.png" width="40%">
+<img src="https://github.com/kavyahandigund/LDR_HDR_conversion_multi_exposure/blob/main/mp2multi3.JPG" width="40%">
 
 Evaluation
 ----------
