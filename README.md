@@ -5,7 +5,7 @@ FHDR: HDR Image Reconstruction from a Single LDR Image using Feedback Network
 This repository contains the code for our FHDR work accepted at [GlobalSIP](http://2019.ieeeglobalsip.org).
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/24846546/166098107-5d9d394e-6e32-4963-9417-7c1d152d717d.png" width="70%">
+<img src="https://github.com/kavyahandigund/LDR_HDR_conversion_multi_exposure/blob/main/mp2Multi1.JPG" width="70%">
 </p>
     
 Table of contents:
