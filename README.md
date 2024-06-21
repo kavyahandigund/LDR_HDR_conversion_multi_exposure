@@ -1,10 +1,14 @@
-FHDR: HDR Image Reconstruction from a Single LDR Image using Feedback Network 
+FHDR: Generating HDR image From differnt multiexposure LDR image Using FHDR model
 ========================================
 [![arXiv](https://img.shields.io/badge/cs.cv-arXiv%3A1912.11463-42ba94.svg)](https://arxiv.org/abs/1912.11463v1)
 
 This repository contains the code for our FHDR work accepted at [GlobalSIP](http://2019.ieeeglobalsip.org).
 
 <p >
+    <p>Multi-Exposure Image Combined into
+ Single LDR Using Simple Averaging.
+![Uploading image.png…]()
+</p>
 <img src="https://github.com/kavyahandigund/LDR_HDR_conversion_multi_exposure/blob/main/mp2Multi1.JPG" width="70%" left="-20%">
 </p>
     
