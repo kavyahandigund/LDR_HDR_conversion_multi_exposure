@@ -130,35 +130,8 @@ Evaluation
 
 The performance of the network can be evaluated using the **`test.py`** file - 
 
-```sh
-python3 test.py --ckpt_path /path/to/pth/checkpoint
-```
 
-- Test results (LDR input, HDR prediction and HDR ground truth) are stored in the **`test_results`** directory.
-- HDR images can be viewed using [OpenHDRViewer](https://viewer.openhdr.org).
-- If checkpoint path is not specified, it defaults to `checkpoints/latest.ckpt` for evaluating the model.
-- PSNR and SSIM scores can be logged for quantitative evaluation by -
 
-```sh
-python3 test.py --log_scores
-```
-
-Citation
-----------
-If you use this code for your research, please cite the following [paper](http://arxiv.org/abs/1912.11463). 
-
-```
-@INPROCEEDINGS{8969167,
-    author={Z. {Khan} and M. {Khanna} and S. {Raman}},
-    booktitle={2019 IEEE Global Conference on Signal and Information Processing (GlobalSIP)},
-    title={FHDR: HDR Image Reconstruction from a Single LDR Image using Feedback Network},
-    year={2019},
-    pages={1-5},
-    doi={10.1109/GlobalSIP45357.2019.8969167}
-}
-```
-Acknowledgement
-------
 
 This research was supported by the Science and Engineering Research Board (SERB) Core Research Grant.
 
